@@ -1,0 +1,47 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="./main.css">
+<script src="./main.js" defer></script>
+<style>
+  ::view-transition-group(*) {
+    animation-duration: 0.5s;
+  }
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    /* Make the height the same as the group,
+    meaning the view size might not match its aspect-ratio. */
+    height: 100%;
+  }
+</style>
+<div class="data-viz">
+  <div class="header-container">
+    <div>    
+      <div class="header">
+        <h1>LCP Data Visualization</h1>
+        <div class="tag">Demo</div>
+      </div>
+      <div class="date-select">
+        <div class="back">◀️</div>
+        <div class="date">Apr 1, 12:00 AM - Apr 8, 12:00 AM</div>
+        <div class="next">▶️</div>
+      </div>  
+    </div>
+  </div>
+  <div class="metric">
+    <div>Path name</div>
+    <div>LCP value</div>
+    <div class="scale">
+      <div>1,000ms</div>
+      <div>2,000ms</div>
+      <div>3,000ms</div>
+      <div>4,000ms</div>
+      <div>5,000ms</div>
+    </div>
+  </div>
+  <div class="container"></div>
+  <div class="scale-grid"></div>
+  <div class="footer-note">
+    <span>This is a demo using the View Transitions API. Learn more about the feature 
+      <a href="https://developer.chrome.com/docs/web-platform/view-transitions/">here</a>.</span>
+  </div>
+</div>
+
