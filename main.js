@@ -101,4 +101,15 @@ document.querySelector('.next').addEventListener('click', evt => {
   startTransition();
 });
 
+/**
+  * Misc
+  */
 document.querySelector('.data-viz').style.opacity = 1;
+const autoScale = _ => {
+  const scale = document.documentElement.clientWidth / 750;
+  document.documentElement.style.setProperty('--scale', `${scale}`);
+}
+autoScale();
+window.addEventListener("resize", evt => {
+  autoScale();
+});
