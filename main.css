@@ -7,7 +7,6 @@
   --button-bg-color: #767676;
   --component-bg-color: #75759314;
   --component-border-color: #8080801c;
-  
 }
 html, body {
   background-color: var(--body-bg-color);
