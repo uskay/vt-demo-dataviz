@@ -63,9 +63,11 @@ html, body {
         justify-content: center;
         background-color: var(--button-bg-color);
       }
-      .back:hover, .next:hover {
-        opacity: 0.5;
-        cursor: pointer;
+      @media (hover: hover) and (pointer: fine) {
+        .back:hover, .next:hover {
+          opacity: 0.5;
+          cursor: pointer;
+        }
       }
     }
   }
