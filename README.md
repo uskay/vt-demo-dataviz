@@ -1,4 +1,4 @@
-# View Transition API Demo
+# View Transition API Demo (SPA)
 This is a demo of using the [View Tranisions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API) in non page navigation patterns. For example, the API could easily add animations to data visualization dashboards to show how data changes over time.
 
 ![GIF](https://cdn.glitch.global/83e13573-94aa-4458-b845-892f2c4a4ebf/vt3.gif?v=1686202693009)
